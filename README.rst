@@ -19,21 +19,21 @@ Overview
     :target: https://readthedocs.org/projects/djangocms-carousel
     :alt: Documentation Status
 
-.. |travis| image:: https://travis-ci.org/rfleschenberg/djangocms-carousel.svg?branch=master
+.. |travis| image:: https://travis-ci.org/awesto/djangocms-carousel.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/rfleschenberg/djangocms-carousel
+    :target: https://travis-ci.org/awesto/djangocms-carousel
 
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/rfleschenberg/djangocms-carousel?branch=master&svg=true
+.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/awesto/djangocms-carousel?branch=master&svg=true
     :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/rfleschenberg/djangocms-carousel
+    :target: https://ci.appveyor.com/project/awesto/djangocms-carousel
 
-.. |requires| image:: https://requires.io/github/rfleschenberg/djangocms-carousel/requirements.svg?branch=master
+.. |requires| image:: https://requires.io/github/awesto/djangocms-carousel/requirements.svg?branch=master
     :alt: Requirements Status
-    :target: https://requires.io/github/rfleschenberg/djangocms-carousel/requirements/?branch=master
+    :target: https://requires.io/github/awesto/djangocms-carousel/requirements/?branch=master
 
-.. |codecov| image:: https://codecov.io/github/rfleschenberg/djangocms-carousel/coverage.svg?branch=master
+.. |codecov| image:: https://codecov.io/github/awesto/djangocms-carousel/coverage.svg?branch=master
     :alt: Coverage Status
-    :target: https://codecov.io/github/rfleschenberg/djangocms-carousel
+    :target: https://codecov.io/github/awesto/djangocms-carousel
 
 .. |version| image:: https://img.shields.io/pypi/v/awesto-djangocms-carousel.svg?style=flat
     :alt: PyPI Package latest release

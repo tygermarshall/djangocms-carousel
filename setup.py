@@ -33,7 +33,7 @@ setup(
     ),
     author='René Fleschenberg',
     author_email='rene@fleschenberg.net',
-    url='https://github.com/rfleschenberg/djangocms-carousel',
+    url='https://github.com/awesto/djangocms-carousel',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],

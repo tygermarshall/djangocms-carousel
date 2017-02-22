@@ -31,14 +31,14 @@ version = release = u'0.1.0'
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://github.com/rfleschenberg/djangocms-carousel/issues/%s', '#'),
-    'pr': ('https://github.com/rfleschenberg/djangocms-carousel/pull/%s', 'PR #'),
+    'issue': ('https://github.com/awesto/djangocms-carousel/issues/%s', '#'),
+    'pr': ('https://github.com/awesto/djangocms-carousel/pull/%s', 'PR #'),
 }
 import sphinx_py3doc_enhanced_theme
 html_theme = "sphinx_py3doc_enhanced_theme"
 html_theme_path = [sphinx_py3doc_enhanced_theme.get_html_theme_path()]
 html_theme_options = {
-    'githuburl': 'https://github.com/rfleschenberg/djangocms-carousel/'
+    'githuburl': 'https://github.com/awesto/djangocms-carousel/'
 }
 
 html_use_smartypants = True
