@@ -31,7 +31,7 @@ setup(
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
     ),
-    author='Ren\xe9 Fleschenberg',
+    author='René Fleschenberg',
     author_email='rene@fleschenberg.net',
     url='https://github.com/rfleschenberg/djangocms-carousel',
     packages=find_packages('src'),
