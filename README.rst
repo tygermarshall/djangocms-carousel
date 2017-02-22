@@ -60,7 +60,7 @@ Overview
 
 A carousel plugin for djangoCMS
 
-* Free software: BSD license
+* Free software: MIT license
 
 Installation
 ============
