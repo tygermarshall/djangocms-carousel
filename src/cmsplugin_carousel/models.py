@@ -5,7 +5,7 @@ from cms.models import CMSPlugin
 from cms.models.fields import PageField
 
 from filer.fields.image import FilerImageField
-from orderedmodel import OrderedModel
+from adminsortable.models import SortableMixin
 
 
 class CarouselPlugin(CMSPlugin):
@@ -23,7 +23,7 @@ class CarouselPlugin(CMSPlugin):
             picture.save()
 
 
-class CarouselPicture(OrderedModel):
+class CarouselPicture(SortableMixin):
     plugin = models.ForeignKey(CarouselPlugin, related_name='pictures')
     image = FilerImageField(verbose_name=_('Image'), related_name='+')
     alt_tag = models.CharField(_('Alt tag'), max_length=255, blank=True)
@@ -31,6 +31,10 @@ class CarouselPicture(OrderedModel):
     url = models.CharField(verbose_name=_('URL'), blank=True, null=True, max_length=500)
     page = PageField(verbose_name=_("Page"), blank=True, null=True)
     open_in_tab = models.BooleanField(verbose_name=_('Open in new window'))
+    ordering = models.PositiveIntegerField(default=0, editable=False, db_index=True)
+
+    class Meta:
+        ordering = ['ordering', ]
 
     def link(self):
         if self.page is not None:
