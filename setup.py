@@ -68,6 +68,7 @@ setup(
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
         'Django>=1.8.5',
         'django-cms>=3.3.3',
+        'django-orderedmodel>=0.1.5',
     ],
     extras_require={
         # eg:
