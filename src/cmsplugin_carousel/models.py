@@ -1,19 +1,17 @@
-from django.db import models
-from django.utils.translation import ugettext_lazy as _
-
+from adminsortable.models import SortableMixin
 from cms.models import CMSPlugin
 from cms.models.fields import PageField
-
+from django.db import models
+from django.utils.translation import ugettext_lazy as _
 from filer.fields.image import FilerImageField
-from adminsortable.models import SortableMixin
 
 
 class CarouselPlugin(CMSPlugin):
     interval = models.PositiveIntegerField(_('Interval'), default=1)
     title = models.CharField(_('Title'), max_length=255, default='', blank=True)
 
-    def __unicode__(self):
-        return unicode(self.title or self.pk)
+    def __str__(self):
+        return self.title or str(self.pk)
 
     def copy_relations(self, oldinstance):
         super(CarouselPlugin, self).copy_relations(oldinstance)
@@ -42,5 +40,5 @@ class CarouselPicture(SortableMixin):
         else:
             return self.url
 
-    def __unicode__(self):
-        return unicode(self.alt_tag)
+    def __str__(self):
+        return self.alt_tag

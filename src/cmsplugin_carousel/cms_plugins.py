@@ -1,12 +1,12 @@
+from cms.plugin_base import CMSPluginBase
+from cms.plugin_pool import plugin_pool
 from django import forms
 from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from cms.plugin_base import CMSPluginBase
-from cms.plugin_pool import plugin_pool
-
-from .models import CarouselPlugin, CarouselPicture
+from .models import CarouselPicture
+from .models import CarouselPlugin
 
 
 class PictureInline(admin.TabularInline):
@@ -36,5 +36,6 @@ class CMSCarouselPlugin(CMSPluginBase):
             'objects_list': instance.pictures.select_related('image'),
         })
         return context
+
 
 plugin_pool.register_plugin(CMSCarouselPlugin)
