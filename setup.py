@@ -66,6 +66,8 @@ setup(
     ],
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
+        'Django>=1.8.5',
+        'django-cms>=3.3.3',
     ],
     extras_require={
         # eg:
