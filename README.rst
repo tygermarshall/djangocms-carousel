@@ -25,7 +25,7 @@ Overview
 
 .. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/awesto/djangocms-carousel?branch=master&svg=true
     :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/awesto/djangocms-carousel
+    :target: https://ci.appveyor.com/project/rfleschenberg/djangocms-carousel
 
 .. |requires| image:: https://requires.io/github/awesto/djangocms-carousel/requirements.svg?branch=master
     :alt: Requirements Status
