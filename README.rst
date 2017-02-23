@@ -75,7 +75,7 @@ Installation
     pip install awesto-djangocms-carousel
 
 
-Add `cmsplugin_carousel` to your INSTALLED_APPS.
+Add ``cmsplugin_carousel`` to your ``INSTALLED_APPS``.
 
 Usage
 =====
