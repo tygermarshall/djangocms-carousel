@@ -13,7 +13,7 @@ Overview
       - | |travis| |appveyor| |requires|
         | |codecov|
     * - package
-      - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
+      - |version| |wheel| |supported-versions| |supported-implementations|
 
 .. |docs| image:: https://readthedocs.org/projects/djangocms-carousel/badge/?style=flat
     :target: https://readthedocs.org/projects/djangocms-carousel
