@@ -39,10 +39,6 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/awesto-djangocms-carousel
 
-.. |downloads| image:: https://img.shields.io/pypi/dm/awesto-djangocms-carousel.svg?style=flat
-    :alt: PyPI Package monthly downloads
-    :target: https://pypi.python.org/pypi/awesto-djangocms-carousel
-
 .. |wheel| image:: https://img.shields.io/pypi/wheel/awesto-djangocms-carousel.svg?style=flat
     :alt: PyPI Wheel
     :target: https://pypi.python.org/pypi/awesto-djangocms-carousel
