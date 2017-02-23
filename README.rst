@@ -85,13 +85,17 @@ child plugins which will be displayed as carousel items.
 
 A `Carousel Caption` plugin is also provided.
 
-A common scenario is::
+A common scenario is:
 
-    * Carousel
-      * Link
-        * Image
-        * Caption
-          * Text
+- Carousel
+
+  - Link
+
+    - Image
+
+    - Caption
+
+        - Text
 
 Documentation
 =============
