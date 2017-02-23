@@ -7,7 +7,7 @@ from filer.fields.image import FilerImageField
 
 
 class CarouselPlugin(CMSPlugin):
-    interval = models.PositiveIntegerField(_('Interval'), default=1)
+    interval = models.PositiveIntegerField(_('Interval'), default=5)
     title = models.CharField(_('Title'), max_length=255, default='', blank=True)
 
     def __str__(self):
