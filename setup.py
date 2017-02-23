@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='awesto-djangocms-carousel',
-    version='0.1.0',
+    version='0.2.0',
     license='MIT',
     description='A carousel plugin for djangoCMS',
     long_description='%s\n%s' % (
