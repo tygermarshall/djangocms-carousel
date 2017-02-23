@@ -26,7 +26,7 @@ project = u'djangocms-carousel'
 year = '2017'
 author = u'Ren\xe9 Fleschenberg'
 copyright = '{0}, {1}'.format(year, author)
-version = release = u'0.2.1'
+version = release = u'0.2.2'
 
 pygments_style = 'trac'
 templates_path = ['.']
